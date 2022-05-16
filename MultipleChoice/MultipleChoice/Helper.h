@@ -56,7 +56,7 @@ namespace Helper
 		}
 	}
 
-	int GetRandomNumber(int maxRange = 100, int minRange = 0)
+	int GetRandomNumber(int minRange = 100, int maxRange = 0)
 	{
 		if (minRange > maxRange)
 			return (0);

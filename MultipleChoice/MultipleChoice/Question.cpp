@@ -8,8 +8,18 @@ void Question::DisplayQuestion()
 	}
 }
 
+void Question::SetPrompt(std::string prompt)
+{
+	_prompt = prompt;
+}
+
 void Question::SetChoices(std::string choice)
 {
 	_choices[_numchoices] = choice;
 	++_numchoices;
+}
+
+void Question::SetAnswer(int answer)
+{
+	_answer = answer;
 }

@@ -13,8 +13,8 @@ public:
 	int GetAnswer() { return _answer; }
 	void DisplayQuestion();
 
-	void SetPrompt(std::string prompt) { _prompt: prompt; }
+	void SetPrompt(std::string prompt);
 	void SetChoices(std::string choice);
-	void SetAnswer(int answer) { _answer: answer; }
+	void SetAnswer(int answer);
 };
 
